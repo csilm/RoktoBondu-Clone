@@ -9,6 +9,7 @@ app.use(express.json());
 app.use("/api/user", userRoute);
 
 // mongoose connection
+mongoose.set('strictQuery', true);
 mongoose
   .connect(
     "mongodb+srv://rokto_bondhu_api:rp3Z3ggvoVgtpKka@cluster0.1ssjj.mongodb.net/Rokto_Bondhu_Api?retryWrites=true&w=majority"
