@@ -15,7 +15,7 @@ mongoose
   )
   .then(() => {
     console.log("database connected");
-    app.listen(4000, () => {
+    app.listen(4000 || process.env.PORT, () => {
       console.log("app listening: http://localhost:4000");
     });
   })
