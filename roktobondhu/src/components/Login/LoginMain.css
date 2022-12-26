@@ -1,0 +1,61 @@
+.body{
+    margin: 0;
+    padding:  0;
+    background:none ;
+    background-size: cover ;
+    background-position: center;
+    font-family: sans-serif;
+}
+.form-top h2 {
+	font-size: 30px;
+	font-weight: 500;
+	padding: 15px;
+	text-transform: uppercase;
+	background: #ED0404;
+	color: #fffbfb;
+	text-align: center;
+	font-family:  'Roboto','Kalpurush';
+
+}
+.loginbox{
+    width:  700px;
+    height: 350px;
+    padding: 1%;
+    background: rgb(243, 237, 237);
+    color:rgb(53, 51, 51);
+    top:55%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 2px gray 2px grey 2px grey 2px;
+    
+
+}
+.loginbox p{
+    margin:auto;
+    padding: 0%;
+    font-weight: bold;
+}
+.loginbox input{
+    width:90%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input [type="password"] {
+    border: none;
+    border-bottom: 1px solid rgb(14, 13, 13);
+    outline: none;
+    height: 40px;
+    
+}
+.loginbox input[type="submit"] {
+    width: 40%;
+    border: none;
+    outline: none;
+    height: 30px;
+    background: #fb2525;
+    color:black;
+    font-size: 18px;
+    display: center;
+
+}

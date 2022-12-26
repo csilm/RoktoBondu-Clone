@@ -1,0 +1,9 @@
+.footerIcon {
+    height: 30px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.logo span {
+    color: #fff;
+}

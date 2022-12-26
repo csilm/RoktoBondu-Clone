@@ -1,0 +1,63 @@
+.plateletHeader{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: bisque;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #ccc;
+    margin-top: 100px;
+}
+.Platelate-Header-Name{
+    color: red;
+}
+.form-control{
+    font-family: 'Roboto','Kalpurush' !important;
+    font-size: 16px !important;
+    margin-bottom: 10px;
+}
+.custom-select{
+    display: inline-block;
+    width: 100%;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    appearance: none;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+}
+.button{
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 19px;
+}
+.button:hover{
+    background-color: black;
+}
+.topektujenenin{
+    background: red;
+}
+.topektujenenin h2{
+    color: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 10px !important;
+}
+.ektujeneninMain{
+    margin-top: 40px;
+    box-sizing: border-box;
+   border-radius: 10px;
+   overflow: hidden;
+   margin-bottom: 100px;
+   
+}
+.bistarito-btn{
+    margin-bottom: 30px;
+}
+.ektujeneninMain:hover{
+    box-shadow: 0.5rem 0.5rem rgb(198, 15, 15), -0.5rem -0.5rem rgb(8, 8, 8);
+}

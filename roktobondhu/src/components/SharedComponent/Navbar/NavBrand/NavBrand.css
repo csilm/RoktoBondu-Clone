@@ -1,0 +1,11 @@
+.brandTitle {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ed0404;
+  text-decoration: none;
+}
+
+.brandTitle:hover {
+  color: #ed0404;
+}
